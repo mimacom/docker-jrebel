@@ -3,7 +3,7 @@ MAINTAINER sysadmin@mimacom.com
 
 # Setup useful environment variables
 ENV JREBEL_INSTALL  /opt/jrebel
-ENV JREBEL_VERSION  3.6.2
+ENV JREBEL_VERSION  3.6.3
 ENV JREBEL_DOWNLOAD_URL https://dl.zeroturnaround.com/license-server/releases/license-server-${JREBEL_VERSION}.zip
 LABEL Description="jRebel license server" Version="${JREBEL_VERSION}"
 
